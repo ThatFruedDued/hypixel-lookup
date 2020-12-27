@@ -1,0 +1,41 @@
+body {
+  background-color: #1c1c1c;
+  overflow: hidden;
+}
+
+input::placeholder {
+  color: lightgray;
+  text-align: center;
+  vertical-align: middle;
+  font-family: sans-serif;
+}
+
+input {
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  height: 75px;
+  width: 600px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 48px;
+  position: absolute;
+  top: 200px;
+  font-family: sans-serif;
+}
+
+p {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  height: 150px;
+  width: 1200px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 48px;
+  position: absolute;
+  top: 250px;
+  font-family: sans-serif;
+}
