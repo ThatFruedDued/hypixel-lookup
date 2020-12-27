@@ -20,6 +20,8 @@
         .then(j => {
           if(j.player == null){
             document.querySelector("p").innerHTML = "Player not found";
+          } else if(j.player.stats.Bedwars == null){
+            document.querySelector("p").innerHTML = "BW lvl: 0";
           } else {
             let xp = j.player.stats.Bedwars.Experience;
             let lvl = 0;
